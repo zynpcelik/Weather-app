@@ -1,0 +1,4 @@
+<template>
+  <WeatherInput />
+  <WeatherDisplay />
+</template>
