@@ -7,7 +7,5 @@
 import { useWeatherStore } from "~~/stores/weather";
 
 const weatherStore = useWeatherStore();
-onMounted(() => {
-  weatherStore.getWeatherData("istanbul");
-});
+onMounted(() => weatherStore.getWeatherData("london"));
 </script>
