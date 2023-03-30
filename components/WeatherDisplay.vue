@@ -1,6 +1,6 @@
 <template>
   <div>display</div>
-  <h3>{{ weatherStore.weatherData }}</h3>
+  <CurrentCard :current="weatherStore.weatherData.current" />
 </template>
 
 <script setup>
