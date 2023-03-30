@@ -8,4 +8,9 @@ export default defineNuxtConfig({
     },
   },
   modules: ["@pinia/nuxt"],
+  runtimeConfig: {
+    public: {
+      apiKey: process.env.API_KEY,
+    },
+  },
 });
