@@ -1,5 +1,8 @@
 <template>
-  <div class="flex flex-col" v-if="weatherStore.weatherData.location">
+  <div
+    class="flex flex-col items-center border-4 border-slate-500"
+    v-if="weatherStore.weatherData.location"
+  >
     <h4>{{ weatherStore.weatherData.location.name }}</h4>
     <div class="flex">
       <div>{{ current.temp_c }} &#8451;</div>

@@ -1,7 +1,10 @@
 <template>
-  <div>
-    <h1>Weather App</h1>
-    <form @submit="handleSubmit" @input="(e) => (input = e.target.value)">
+  <div class="flex flex-col items-center">
+    <form
+      class="flex justify-center"
+      @submit="handleSubmit"
+      @input="(e) => (input = e.target.value)"
+    >
       <input type="text" :value="input" placeholder="Search a city..." />
     </form>
   </div>
