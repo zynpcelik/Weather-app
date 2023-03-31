@@ -4,8 +4,14 @@
       class="flex justify-center"
       @submit="handleSubmit"
       @input="(e) => (input = e.target.value)"
+      @keyup="handleInput"
     >
-      <input type="text" :value="input" placeholder="Search a city..." />
+      <input
+        type="text"
+        :value="input"
+        placeholder="Search a city..."
+        class="w-96 h-9 p-3 rounded-lg text-slate-900 font-semibold hover:bg-slate-900 hover:text-white"
+      />
     </form>
   </div>
 </template>
