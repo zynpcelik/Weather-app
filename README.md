@@ -1,42 +1,46 @@
-# Nuxt 3 Minimal Starter
+# Weather App
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+This is a Weather App built with Nuxt.js, Tailwind CSS, and Pinia.
 
-## Setup
+Features
 
-Make sure to install the dependencies:
+- Get the current weather for any location by searching for a city.
+- View the 3-day forecast for any location.
 
-```bash
-# yarn
-yarn install
+## Getting Started
 
-# npm
-npm install
+To get started with the project, clone the repository and install the dependencies:
 
-# pnpm
-pnpm install
-```
+    git clone https://github.com/zynpcelik/Weather-app.git.
+    cd Weather-app
+    yarn install
 
-## Development Server
+Create a .env file in the root of the project with the following contents:
 
-Start the development server on http://localhost:3000
+    API_KEY=<your Weather API key>
 
-```bash
-npm run dev
-```
+Start the development server :
 
-## Production
+    yarn dev
 
-Build the application for production:
+Visit http://localhost:3000/ in your browser.
 
-```bash
-npm run build
-```
+## Deployment
 
-Locally preview production build:
+To deploy this app, you can follow these steps:
 
-```bash
-npm run preview
-```
+Build the app for production:
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+    yarn build
+
+Optionally, you can also generate a static version of the app:
+
+    yarn generate
+
+API
+
+This app uses the weatherapi to retrieve weather data. You will need to create an account to obtain an API key.
+
+License
+
+This project is licensed under the MIT License.
