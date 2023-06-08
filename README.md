@@ -9,7 +9,7 @@ Features
 
 ## App Screenshot
 
-![app-screenshot](https://github.com/zynpcelik/Weather-app/tree/master/assets/screenshots/weatherAppScreenshot.png)
+![app-screenshot](https://github.com/zynpcelik/Weather-app/blob/master/assets/screenshots/weatherAppScreenshot.png)
 
 ## Getting Started
 
