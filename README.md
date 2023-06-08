@@ -7,6 +7,10 @@ Features
 - Get the current weather for any location by searching for a city.
 - View the 3-day forecast for any location.
 
+## App Screenshot
+
+![app-screenshot](https://github.com/zynpcelik/Weather-app/tree/master/assets/screenshots/weatherAppScreenshot.png)
+
 ## Getting Started
 
 To get started with the project, clone the repository and install the dependencies:
